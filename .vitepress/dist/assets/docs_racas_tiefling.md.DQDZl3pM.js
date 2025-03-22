@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dh1jimFm.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/racas/tiefling.md","filePath":"docs/racas/tiefling.md"}'),s={name:"docs/racas/tiefling.md"};function c(r,o,n,i,d,f){return a(),t("div")}const _=e(s,[["render",c]]);export{p as __pageData,_ as default};
