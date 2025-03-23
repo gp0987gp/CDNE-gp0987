@@ -1,18 +1,15 @@
 {
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": ".vitepress/dist"
-        },
-        "build": {
-          "env": {
-            "NODE_VERSION": "18"
-          }
-        }
-
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": ".vitepress/dist"
       }
-    ]
+    }
+  ],
+  "env": {
+    "NODE_VERSION": "18"
   }
-  
+}
