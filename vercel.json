@@ -5,7 +5,13 @@
         "use": "@vercel/static-build",
         "config": {
           "distDir": ".vitepress/dist"
+        },
+        "build": {
+          "env": {
+            "NODE_VERSION": "18"
+          }
         }
+
       }
     ]
   }
