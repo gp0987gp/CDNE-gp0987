@@ -1,8 +1,9 @@
 {
   "type": "module",
 "scripts": {
-  "docs:build": "vitepress build",
+   "build": "vitepress build",
   "docs:dev": "vitepress dev",
+    "vercel-build": "vitepress build",
   "docs:serve": "vitepress serve"
 },
 
